@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding:0;
+  
+}
+.sidebar{
+  background: #ffffff;
+   color: gray;
+   height: 100vh;
+   position: fixed; 
+   left: 0;
+   margin-top: -25px;
+   
+
+}

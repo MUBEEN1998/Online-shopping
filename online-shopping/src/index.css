@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-family: 'Gilda Display', serif; */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.footer {
+  color: white;
+  padding: 25px;
+
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px; /* Set the desired height for the footer */
+  background-color: #f0f0f0; /* Set the desired background color for the footer */
+}
